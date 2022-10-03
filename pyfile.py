@@ -18,19 +18,19 @@ class employe(details):
         details.__init__(self,name,age)
         
     def printdetails(self):
-        print(f"My name is {self.name}, age is {self.age}, salary is {self.salary} and role is {self.role}")
+        print(f"name is {self.name}, age is {self.age}, salary is {self.salary} and role is {self.role}")
         
         
  
-a=details("avi", 22)
-a.printdetails()
+x=details("avi", 22)
+x.printdetails()
 print()
-b=employe("a", 22,70000, "Engineer")
-b.printdetails()
+y=employe("a", 22,70000, "Engineer")
+y.printdetails()
 print()
 print()
 
-for i in (a,b):
+for i in (x,y):
     i.printdetails()
          
         
